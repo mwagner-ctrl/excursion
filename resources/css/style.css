@@ -31,6 +31,16 @@ section {
     padding: 20px;
 }
 
+
+.footer {
+    display: flex;        /* makes children align in a row */
+    align-items: center;  /* vertically centers icon and text */
+    gap: 0.5rem;          /* optional space between icon and text */
+    color: gray;
+    justify-content: end;
+}
+
+
 #herovideo-section {
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
