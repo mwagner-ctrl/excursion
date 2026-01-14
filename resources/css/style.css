@@ -3,9 +3,33 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: white;
+    text-align: center;
 }
 
 body a {
     color: aquamarine;
     font-size: 1rem;
+}
+
+h1 {
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.image {
+    background-image: url(../images/camp.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
